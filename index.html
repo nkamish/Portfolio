@@ -75,11 +75,11 @@
     <header>
         <nav class="nav">
             <ul>
-                <li><a>Home</a></li>
-                <li><a>About Me</a></li>
-                <li><a>Experience</a></li>
-                <li><a>Hobbies</a></li>
-                <li><a>Contact Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#me">About Me</a></li>
+                <li><a href="#job" target="_self">Experience</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>    
     </header>  
@@ -92,7 +92,7 @@
     <main>
 
     <section>
-        <div class="education">
+        <div class="education" id="education">
             <h2>Educational Details</h2>
 
             <h3>Secondary Education</h3>
@@ -121,15 +121,16 @@
         <br>
         <br>
 
-            <h2>ABOUT MYSELF</h2>
+            <div class="me" id="me">
+                <h2>ABOUT MYSELF</h2>
 
-            <p>I am a creative person. I enjoy designing, problem solving and enjoy working with others.</p>
-
+                <p>I am a creative person. I enjoy designing, problem solving and enjoy working with others.</p>
+            </div>
         </div>
     </section>
 
     <section>
-        <div class="job">
+        <div class="job" id="job">
              <h2>My Work Experience</h2>
 
              <table>
@@ -146,28 +147,12 @@
                     <td>2 years</td>
                 </tr>
              </table>
-             
-             <h3>Contact Reference</h3>
 
-             <table>
-                 <tr>
-                     <td>Name</td>
-                     <td>Darren Kleinvelt</td>
-                 </tr>
-                 <tr>
-                    <td>Designation:</td>
-                    <td>Team Leader</td>
-                </tr>
-                <tr>
-                    <td>Contact telephone number:</td>
-                    <td>084 832 6815</td>
-                </tr>
-             </table>
         </div>
     </section>
     
     <section>
-        <div class="skills">
+        <div class="skills" id="hobbies">
             <h2>My Hobbies & Achievements</h2>
             
             <ul>
@@ -188,6 +173,7 @@
     </aside>
 
     <footer class="table">
+        <div>
             <table>
                 <tr>
                     <th><h3>Contact Me</h3></th>
@@ -201,6 +187,7 @@
                     <td>081 541 6919</td>
                 </tr>                
             </table>
+        </div>
     </footer>    
 
 </body>

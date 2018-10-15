@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-image: url('../img/body.jpg');
@@ -49,7 +51,14 @@ p {
     color: white;
     display: block;
 }
+
+.nav li a:hover {
+    color: rgb(159, 57, 255);
+}
 /* Nav bar styling ends here */
-/* footer styling begins here */
+
+a {
+    text-decoration: none;
+}
 
 
