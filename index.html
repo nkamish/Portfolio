@@ -1,194 +1,196 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Natheer Kamish CV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="main.js"></script>
-    
-    <!-- Google Fonts Listed Below -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- syling for main content classes begins here -->
+    <title>Natheer Kamish Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Script style links begin here -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Script style links ends here -->
+
     <style>
-        h1 {
-            text-align: center;
+        /* styling for hero begins here */
+        .hero {
+            background-image: url('img/hero.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
-        h2 {
-            font-size: 40px;
+        .hero-body > div > h1 {
+            color: white;
         }
-        .education {
-            opacity: 0.6;
-            width: 500px;
-            height: 500px;
-            float: left;
-            font-size: 10px;
-            background-color: black;
-            padding: 20px;
-            margin: 10px;
+        .hero-body > div > h2 {
+            color:dimgrey;
         }
-        .teducation {
-            opacity: 0.6;
-            width: 500px;
-            height: 500px;
-            float: left;
-            background-color: black;
-            padding: 20px;
-            margin: 10px;
-        }        
-        .job {
-            opacity: 0.6;
-            width: 500px;
-            height: 500px;
-            float: left;
-            background-color: black;
-            padding: 20px;
-            margin: 10px;
+        .hero-body > .container {
+            padding-bottom: 20px;
         }
-        .skills {
-            opacity: 0.6;
-            width: 500px;
-            height: 500px;
-            float: left;
-            background-color: black;
-            padding: 20px;
-            margin: 10px;
+        .bg-dark {
+            background-color: #2e201fe3!important;
         }
-        .list {
-            font-size: 20px;            
-            font-family: 'Roboto Condensed', sans-serif;
-            text-align: left;
-            list-style: circle;
-        }
-        .table {
-            color: black;
-        }
-        /* styling for main content classes ends here */
+        /* styling for hero ends here */        
     </style>
 
 </head>
 <body>
-    <!-- nav bar begins here -->
-    <header>
-        <nav class="nav">
-            <ul>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#me">About Me</a></li>
-                <li><a href="#job" target="_self">Experience</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>    
-    </header>  
-    <!-- nav bar ends here -->
-    <br>
-    <br>
-    <br>
 
-    <h1>Portfolio of Natheer Kamish</h1>
-    <main>
+    <section class="hero is-fullheight"> <!---------- Landing Page structure ends here ---------------->
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#port">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark" style="background-color: #2e201fe3;">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
 
-    <section>
-        <div class="education" id="education">
-            <h2>Educational Details</h2>
-
-            <h3>Secondary Education</h3>
-
-            <p>Completed Grade 12, Bachelor's degree at Belville Technical High School, Year 2014</p>
-
-            <h3>Subjects:</h3>
-
-            <ul class="list">
-                <li>English 1st Language</li>
-                <li>Afrikaans 2nd Language</li>
-                <li>Mathematical Literacy</li>
-                <li>Engineering & Graphics Design</li>
-                <li>Computer Applications technology</li>
-                <li>Civil Technology</li>
-                <li>Civil Engineering</li>
-                <li>Life Orientation</li>
-            </ul>
-        </div>    
-        <div class="teducation">
-            <h3>Tertiary Education</h3>
-
-            <p>Cape Peninsula University of technology</p>
-            <p>Course: ND Architectural technology, 1st year 2015</p>
-
-        <br>
-        <br>
-
-            <div class="me" id="me">
-                <h2>ABOUT MYSELF</h2>
-
-                <p>I am a creative person. I enjoy designing, problem solving and enjoy working with others.</p>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Natheer Kamish 
+                </h1>
+                <h2 class="subtitle">
+                    Fullstack | Junior Developer
+                </h2>
+                <p>
+                    <!-- <button>View Projects</button> -->
+                    <button type="button" class="btn btn-secondary">View Projects</button>
+                </p>
             </div>
         </div>
-    </section>
+    </section> <!---------- Landing Page structure ends here ---------------->
 
-    <section>
-        <div class="job" id="job">
-             <h2>My Work Experience</h2>
+    <section class="intro"> <!----------About Me structure ends here---------------->
+        <div class="container_intro" id="me">
+            <h2>I am Natheer, a Fullstack Developer</h2>
 
-             <table>
-                <tr>
-                    <td>Name Of Company:</td>
-                    <td>Webhelp</td>
-                </tr>
-                <tr>
-                    <td>Position:</td>
-                    <td>Call center Advisor</td>
-                </tr>
-                <tr>
-                    <td>Duration of Service</td>
-                    <td>2 years</td>
-                </tr>
-             </table>
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, facere quam aliquam reprehenderit asperiores accusamus repellendus reiciendis quasi hic, corporis itaque libero eos non nostrum maxime delectus iusto tempore. Eius.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugit quidem quae assumenda mollitia tempore perspiciatis repudiandae dolore odio veniam, suscipit aperiam voluptatum, sed ipsum. Odio exercitationem quos at maxime.</p>
         </div>
-    </section>
+    </section> <!----------About Me structure ends here---------------->
+
+    <section class="skills"> <!----------Skills structure begins here---------------->
+        <div class="container" id="skills">
+            <div class="container_skills">
+                <h2>My Skills</h2>
+                <p>These are all the projects I have completed in my course so far.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsam et quaerat eligendi nam, repudiandae distinctio fugit, natus aut, eaque commodi ducimus cum rerum. Et beatae dolorum aspernatur doloremque harum!</p>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="img/boy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/boy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="img/boy.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!----------Skills structure ends here---------------->
+
+    <section> <!----------Experiences structure begins here---------------->
+        <div class="container_experience" id="experience">
+                <h2>My Experience</h2>
     
-    <section>
-        <div class="skills" id="hobbies">
-            <h2>My Hobbies & Achievements</h2>
-            
-            <ul>
-                <li>Shinkyokushinkai Karate (Black Belt)</li>
-                <li>Drawing, Video gaming and Outdoor life</li>
-            </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, facere quam aliquam reprehenderit asperiores accusamus repellendus reiciendis quasi hic, corporis itaque libero eos non nostrum maxime delectus iusto tempore. Eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugit quidem quae assumenda mollitia tempore perspiciatis repudiandae dolore odio veniam, suscipit aperiam voluptatum, sed ipsum. Odio exercitationem quos at maxime.</p>
+            </div>
+    </section> <!----------Experiences structure ends here---------------->
 
-            <img src="img/SHINKYOKUSHIN.jpeg" width="200px" height="330px">
+    <section class="projects" id="port"> <!----------Portfolio structure begins here---------------->
+
+        <div class="container_projects">
+            <h2>Portfolio</h2>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe nihil pariatur nam repellat eveniet et inventore sed, tempore eaque dolore consequatur. Libero, magni distinctio dolore aperiam porro harum nostrum architecto?</p>
+        </div>    
+
+        <div class="container_bg1">
+            <div class="container_bg2">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/eyes.jpg" alt="First slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/hero.jpg" alt="Second slide">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="img/sky.jpg" alt="Third slide">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>    
+
+    </section> <!----------Portfolio structure begins here---------------->
+    
+    
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Built By Natheer Kamish
+            </p>
+
         </div>
-    </section>    
-
-    </main>
-
-    <br>
-
-    <aside>
-        <img src="img/natheer.jpg" alt="picture of me" width="300px" height="450px">
-    </aside>
-
-    <footer class="table">
-        <div>
-            <table>
-                <tr>
-                    <th><h3>Contact Me</h3></th>
-                </tr>
-                <tr>   
-                    <td>Email me:</td>
-                    <td>natheerkamish@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Call me:</td>
-                    <td>081 541 6919</td>
-                </tr>                
-            </table>
-        </div>
-    </footer>    
+    </footer>
 
 </body>
 </html>

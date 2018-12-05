@@ -1,0 +1,114 @@
+
+/* Styling for smooth scrollng */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*----------------- Section Styling begins here -------------------*/
+
+/* Styling for intro begins here */
+.container_intro {
+    padding: 5%;
+    text-align: center;
+}
+/* Styling for intro ends here */
+
+/* Navbar styling begins here */
+.bg-dark {
+    background-color: #3c2e2ebd!important;
+}
+
+.nav {
+    padding-right: 2%; 
+}
+.nav-pills .nav-link {
+    color: grey !important;
+}
+.nav-pills .nav-link:hover {
+    color: #fff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+    transition: 1s;
+}
+.nav-pills .nav-link:active {
+    color: #fff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+/* Navbar styling ends here */
+/*--------------- Styling for skills begins here */
+.skills {
+    background: #191616;
+    padding-bottom: 5%;
+}
+.container_skills {
+    padding: 5%;
+    color: azure;
+}
+
+/* Styling for cards begins here */
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    height: auto;
+}
+/* Styling for cards ends here */
+
+/*----------------- Styling for skills ends here */
+
+/*----------------- Styling for experience begins here */
+.container_experience {
+    text-align: center;
+    padding: 5%;
+}
+/*----------------- Styling for experience ends here */
+.container_projects {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+}
+
+/* styles for project section begins here */
+
+.container_projects {
+    background: whitesmoke;
+    text-align: center;
+    padding: 2%;
+}
+.container_bg1 {
+    background: dimgray;
+    padding: 2%;
+}
+.container_bg2 {
+    background: black;
+    padding: 2%;
+}
+/* styles for project section begins here */
+/*------------------- Section Styling ends here ------------------------*/
+
+
+/* styling for footer section begins here */
+.footer {
+    color: whitesmoke;
+    background-color: #5a5454ad;
+}
+/* styling for footer section begins here */
+
+/*-------------------- Respondsive styling ------------------------*/
+@media screen and (max-width: 1023px) {
+    .navbar-menu.is-active {
+        display: block;
+        background-color: #191616;
+        background-color: #1d1616ba;
+    }
+}
+.navbar-item, .navbar-link {
+    color: oldlace;
+}   
