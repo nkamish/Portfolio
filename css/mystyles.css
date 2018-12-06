@@ -51,9 +51,15 @@ body {
 .container_skills {
     padding: 5%;
     color: azure;
+    text-align: center;
 }
 
 /* Styling for cards begins here */
+
+.card-group {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -63,15 +69,16 @@ body {
 /* Styling for cards ends here */
 
 /*----------------- Styling for skills ends here */
+/*------------------------------------------------------------------------*/
+/* Styling for experience begins here */
 
-/*----------------- Styling for experience begins here */
 .container_experience {
     text-align: center;
     padding: 5%;
     background: rgb(199, 199, 199);
 }
-/*----------------- Styling for experience ends here */
-.container_projects {
+
+/* .container_projects {
     width: 100%;
     padding-right: 1px;
     padding-left: 1px;
@@ -79,8 +86,10 @@ body {
     margin-left: auto;
     padding-top: 1.5%;
     padding-bottom: 2%;
-}
+} */
 
+/* styles for experience section ends here */
+/*------------------------------------------------------------------------*/
 /* styles for project section begins here */
 
 .container_projects {
