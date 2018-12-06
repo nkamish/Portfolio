@@ -5,12 +5,16 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Cuprum', sans-serif !important;
+}
 /*----------------- Section Styling begins here -------------------*/
 
 /* Styling for intro begins here */
 .container_intro {
     padding: 5%;
     text-align: center;
+    background: rgb(212, 212, 212);
 }
 /* Styling for intro ends here */
 
@@ -20,10 +24,11 @@ html {
 }
 
 .nav {
-    padding-right: 2%; 
+    padding-right: 5%; 
 }
 .nav-pills .nav-link {
     color: grey !important;
+    font-size: 22px;
 }
 .nav-pills .nav-link:hover {
     color: #fff !important;
@@ -63,6 +68,7 @@ html {
 .container_experience {
     text-align: center;
     padding: 5%;
+    background: rgb(199, 199, 199);
 }
 /*----------------- Styling for experience ends here */
 .container_projects {
@@ -78,7 +84,7 @@ html {
 /* styles for project section begins here */
 
 .container_projects {
-    background: whitesmoke;
+    background: dimgray;
     text-align: center;
     padding: 2%;
 }
@@ -90,7 +96,25 @@ html {
     background: black;
     padding: 2%;
 }
-/* styles for project section begins here */
+
+/* styles for project section ends here */
+/*------------------------------------------------------------------------*/
+/* styles for contact section begins here */
+
+.container_contact {
+    background: rgb(212, 212, 212);
+    text-align: center;
+    padding: 5%;
+}
+
+.container_form {
+    width: 90%;
+    text-align: left;
+    background: rgb(212, 212, 212);
+    padding: 5%;
+}
+/* styles for contact section ends here */
+
 /*------------------- Section Styling ends here ------------------------*/
 
 
@@ -98,8 +122,11 @@ html {
 .footer {
     color: whitesmoke;
     background-color: #5a5454ad;
+    padding: 5% !important;
 }
 /* styling for footer section begins here */
+
+
 
 /*-------------------- Respondsive styling ------------------------*/
 @media screen and (max-width: 1023px) {

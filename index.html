@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="css/mystyles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
+    <!-- Font style links begin here -->
+    <link href="https://fonts.googleapis.com/css?family=Cuprum|Hind+Siliguri" rel="stylesheet">
+    <!-- Font style links ends here -->
+
     <!-- Script style links begin here -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -25,6 +29,7 @@
         }
         .hero-body > div > h1 {
             color: white;
+            font-size: 40px;
         }
         .hero-body > div > h2 {
             color:dimgrey;
@@ -133,11 +138,11 @@
 
     <section> <!----------Experiences structure begins here---------------->
         <div class="container_experience" id="experience">
-                <h2>My Experience</h2>
-    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, facere quam aliquam reprehenderit asperiores accusamus repellendus reiciendis quasi hic, corporis itaque libero eos non nostrum maxime delectus iusto tempore. Eius.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugit quidem quae assumenda mollitia tempore perspiciatis repudiandae dolore odio veniam, suscipit aperiam voluptatum, sed ipsum. Odio exercitationem quos at maxime.</p>
-            </div>
+            <h2>My Experience</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, facere quam aliquam reprehenderit asperiores accusamus repellendus reiciendis quasi hic, corporis itaque libero eos non nostrum maxime delectus iusto tempore. Eius.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae fugit quidem quae assumenda mollitia tempore perspiciatis repudiandae dolore odio veniam, suscipit aperiam voluptatum, sed ipsum. Odio exercitationem quos at maxime.</p>
+        </div>
     </section> <!----------Experiences structure ends here---------------->
 
     <section class="projects" id="port"> <!----------Portfolio structure begins here---------------->
@@ -179,16 +184,84 @@
             </div>
         </div>    
 
-    </section> <!----------Portfolio structure begins here---------------->
+    </section> <!----------Portfolio structure ends here---------------->
     
-    
+    <section> <!---------- Contact structure begins here---------------->
+
+        <div class="container_contact" id="contact">
+
+            <h2>Let's Keep In Touch!</h2>
+
+            <p>Thank you for visiting out my profile. If you would like to get into contact with me, please fill out the form below.</p>
+
+            <div class="container_form"> <!------------ Beginning of form container ------------>
+
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Name</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control is-expanded has-icons-left">
+                            <input class="input" type="text" placeholder="Name">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                            </span>
+                        </p>
+                        </div>
+
+                        <div class="field">
+                        <p class="control is-expanded has-icons-left has-icons-right">
+                            <input class="input is-success" type="email" placeholder="Email">
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-check"></i>
+                            </span>
+                        </p>
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Comments</label>
+                    </div>
+
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Enter your message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field is-horizontal">
+                    <div class="field-label">
+                        <!-- Left empty for spacing -->
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <div class="control">
+                                <button type="button" class="btn btn-secondary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                         
+            </div> <!----------------- End of form container ------------------>
+            
+        </div>
+
+    </section> <!---------- Contact structure ends here---------------->
 
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
                 Built By Natheer Kamish
             </p>
-
         </div>
     </footer>
 
