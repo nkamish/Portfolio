@@ -40,6 +40,16 @@
         .bg-dark {
             background-color: #2e201fe3!important;
         }
+        .btn-primary {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #3c2e2ebd;
+            border-color: #6c757d;
+        }
         /* styling for hero ends here */        
     </style>
 
@@ -83,10 +93,35 @@
                 <h2 class="subtitle">
                     Fullstack | Junior Developer
                 </h2>
-                <p>
-                    <!-- <button>View Projects</button> -->
-                    <button type="button" class="btn btn-secondary">View Projects</button>
-                </p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                    View Projects
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">My Projects</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <a href="http://" target="_blank"><img src="img/jc.png" alt=""></a>
+                                </p>
+                                <p>
+                                    <a href="http://" target="_blank"><img src="img/quiz.png" alt=""></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section> <!---------- Landing Page structure ends here ---------------->
