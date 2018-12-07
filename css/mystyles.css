@@ -8,26 +8,21 @@ html {
 body {
     font-family: 'Cuprum', sans-serif !important;
 }
+
 /*----------------- Section Styling begins here -------------------*/
 
-/* Styling for intro begins here */
-.container_intro {
-    padding: 5%;
-    text-align: center;
-    background: rgb(212, 212, 212);
-}
-/* Styling for intro ends here */
+
 
 /* Navbar styling begins here */
 .bg-dark {
-    background-color: #3c2e2ebd!important;
+    background-color: #4a434094!important;
 }
 
 .nav {
     padding-right: 5%; 
 }
 .nav-pills .nav-link {
-    color: grey !important;
+    color: azure !important;
     font-size: 22px;
 }
 .nav-pills .nav-link:hover {
@@ -43,9 +38,34 @@ body {
 }
 
 /* Navbar styling ends here */
-/*--------------- Styling for skills begins here */
+/*------------------------------------------------------------------------*/
+/* Model styling begins here */
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 1rem;
+    background: #0e649c;
+    color: azure;
+}
+
+/* Model styling ends here */
+/*------------------------------------------------------------------------*/
+/* Styling for intro begins here */
+
+.container_intro {
+    padding: 5%;
+    text-align: center;
+    background: #e8e8e859;
+}
+
+/* Styling for intro ends here */
+/*------------------------------------------------------------------------*/
+/* Styling for skills begins here */
+
 .skills {
-    background: #191616;
+    background: #86888a;
     padding-bottom: 5%;
 }
 .container_skills {
@@ -68,7 +88,7 @@ body {
 }
 /* Styling for cards ends here */
 
-/*----------------- Styling for skills ends here */
+/* Styling for skills ends here */
 /*------------------------------------------------------------------------*/
 /* Styling for experience begins here */
 
@@ -77,16 +97,6 @@ body {
     padding: 5%;
     background: rgb(199, 199, 199);
 }
-
-/* .container_projects {
-    width: 100%;
-    padding-right: 1px;
-    padding-left: 1px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 1.5%;
-    padding-bottom: 2%;
-} */
 
 /* styles for experience section ends here */
 /*------------------------------------------------------------------------*/
@@ -122,6 +132,11 @@ body {
     background: rgb(212, 212, 212);
     padding: 5%;
 }
+.btn-secondary {
+    color: #fff;
+    background-color: #727980a6;
+    border-color: #6c757d;
+}
 /* styles for contact section ends here */
 
 /*------------------- Section Styling ends here ------------------------*/
@@ -129,8 +144,8 @@ body {
 
 /* styling for footer section begins here */
 .footer {
-    color: whitesmoke;
-    background-color: #5a5454ad;
+    color: dimgray;
+    background-color: #e8e8e859;
     padding: 5% !important;
 }
 /* styling for footer section begins here */
