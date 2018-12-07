@@ -70,6 +70,7 @@ body {
 }
 .container_skills {
     padding: 5%;
+    padding-bottom: 2%;
     color: azure;
     text-align: center;
 }
@@ -95,7 +96,12 @@ body {
 .container_experience {
     text-align: center;
     padding: 5%;
+    padding-bottom: 2%;
     background: rgb(199, 199, 199);
+}
+.container_experience > h2 {
+    padding: 2%;
+    color: #026d9b;
 }
 
 /* styles for experience section ends here */
