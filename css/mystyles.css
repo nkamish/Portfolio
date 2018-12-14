@@ -60,6 +60,16 @@ body {
     background: #e8e8e859;
 }
 
+.container_intro > h2 {
+    color: #026d9b;
+    font-size: 50px;
+}
+
+.container_intro > p {
+    color: dimgray;
+    font-size: 18px;
+    padding: 2%;
+}
 /* Styling for intro ends here */
 /*------------------------------------------------------------------------*/
 /* Styling for skills begins here */
@@ -81,6 +91,7 @@ body {
     padding-left: 5%;
     padding-right: 5%;
 }
+
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
@@ -96,12 +107,32 @@ body {
 .container_experience {
     text-align: center;
     padding: 5%;
-    padding-bottom: 2%;
+    padding-bottom: 8%;
     background: rgb(199, 199, 199);
+    
 }
 .container_experience > h2 {
     padding: 2%;
     color: #026d9b;
+}
+
+.btn-link {
+    font-weight: 400 !important;
+    color: #026d9b;
+    font-size: 20px !important;
+    text-align: center !important;
+    background-color: white;
+    text-decoration: none !important;
+}
+
+.card-body1 {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size: 15px;
+    padding: 4%;
+    color: dimgray;
+    text-align: center;
+    background: whitesmoke;
 }
 
 /* styles for experience section ends here */
